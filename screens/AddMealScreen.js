@@ -2,6 +2,7 @@ import React, { useState, useContext } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, Alert, Keyboard, TouchableWithoutFeedback } from 'react-native';
 import { MealContext } from '../context/MealContext';
 
+
 export default function AddMealScreen({ navigation }) {
   const [meal, setMeal] = useState('');
   const [calories, setCalories] = useState('');
